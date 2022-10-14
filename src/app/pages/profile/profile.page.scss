@@ -1,0 +1,92 @@
+.profile{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background: linear-gradient(to left, #C4302B, #ffff);
+    border-radius: 10px;
+    .profile-header{
+        border-radius: 10px 10px 0px 20px;
+        background-color: #C4302B;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+        button{
+            background: none;
+            position: absolute;  
+            top: 30px;
+            right: 30px;
+            ion-icon{
+                font-size: 25px;
+            }
+        }
+        img{
+            width: 80px;
+        }
+        h1{
+            font-size: 24px;
+            margin: 0;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        h3{
+            margin: 0;
+            margin-top: 5px;
+            font-size: 16px;
+            font-weight: normal;
+        }
+    }
+    .profile-body{
+        background: white;
+        border-radius: 0 20px 10px 10px;
+        padding: 15px 0;
+        width: 100%;
+        button{
+            color: #777777;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: none;
+        }
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 85%;
+            margin: auto;
+            border-bottom: 1.5px solid #cecece;
+            padding: 25px 15px;
+            font-size: 16px;
+            font-weight: 520;
+            .left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            ion-icon{
+                font-size: 24px;
+                margin-right: 10px;
+            }
+            .right ion-icon{
+                font-size: 24px;
+                margin: 0;
+            }
+        }
+    }
+    .personal{
+        display: none;
+    }
+    .personal.show{
+        display: block;
+    }
+    .option{
+        display: block;
+    }
+    .option.hide{
+        display: none;
+    }
+}
+.custom-action{
+    
+}
